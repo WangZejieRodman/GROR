@@ -4,7 +4,7 @@ project(GrorReg)
 
 set(CMAKE_BUILD_TYPE "Release")
 #set(PCL_DIR "D:/ThirdLib/PCL 1.8.1/cmake")
-#set(PCL_DIR "C:/Program Files/PCL 1.12.0/cmake")
+set(PCL_DIR "C:/Program Files/PCL 1.14.0/cmake")
 
 find_package(PCL REQUIRED)
 include_directories(${PCL_INCLUDE_DIRS})
